@@ -53,6 +53,7 @@ public class Cat {
 			throw new UnsupportedOperationException("Injected bug for rentCat()");
 		}
 		rented = true;
+		System.out.println("rented is true");
 	}
 
 	/**
